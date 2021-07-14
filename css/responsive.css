@@ -1,0 +1,573 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+    p{
+    width: auto !important;
+  }
+  h1{
+    width: auto !important;
+    font-size: 24px !important;
+  }
+  h2{
+    width: auto !important;
+  }
+  .cus-b-main {
+    margin: 0 auto;
+    width: 350px;
+  }
+  .cus-b-top {
+    width: 350px;
+    margin: 0 auto;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+
+  p{
+    width: auto !important;
+  }
+  h1{
+    width: auto !important;
+    font-size: 24px !important;
+  }
+  h2{
+    width: auto !important;
+  }
+  .mobile-button i{
+    color: #fff;
+  }
+  .banner {
+    height: auto;
+    padding: 32px 0px;
+  }
+  .banner-left {
+    height: auto;
+    text-align: center;
+  }
+  .banner-left h2{
+    width: auto;
+  }
+  .banner-left h5{
+    margin: 25px auto;
+  }
+  .banner-left p{
+    width: auto;
+  }
+  .banner-right {
+    height: auto;
+  }
+  .card {
+  width: 100%;
+  margin-top: 30px;
+  }
+
+   /* banner */
+
+  .social-area {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 40px 0px;
+  text-align: center;
+  }
+  .social-top p{
+    width: auto;
+   }
+  .social-bottom ul{
+  padding: 0;
+  margin: 0;
+  }
+  .social-bottom img {
+  width: 25px;
+  }
+  .social-bottom ul li {
+  display: inline;
+  list-style: none;
+  padding: 0px 5px;
+  }
+  .features-tab {
+  padding-left: 10px;
+  margin-bottom: 42px;
+  }
+  .features-tab  li{
+    display: inline-block;
+  }
+  .features-area .col-md-2{
+    text-align: center;
+  }
+  .features-area .col-md-6{
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .features-text h2{
+    width: auto;
+  }
+  .features-text p{
+    width: auto;
+  }
+  .features-image {
+  margin-top: 42px;
+  text-align: center;
+  }
+  .tab {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  line-height: 80px;
+  }
+
+  /* slider-area */
+
+  .slider-area .der{
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  .slider-text h5{
+    margin: 20px auto;
+  }
+  .slider-left-con{
+    margin: 20px auto;
+  }
+  .slider-img{
+    padding: 13px;
+  }
+
+  /* slider-2-area */
+
+  .slider-2-area{
+    text-align: center;
+  }
+  .slider-2-text{
+    padding: 0px 10px; 
+    margin-bottom: 20px;
+  }
+  .slider-2-text h5 {
+    margin: 30px auto;
+  }
+
+  /* content-area */
+
+  .list{
+    margin-top: 20px;
+  }
+
+  /* price-area */
+
+  .pri-sec {
+  padding: 20px;
+  }
+
+  /* customer-area */
+
+
+  .cus-b-main{
+    margin-bottom: 30px;
+  }
+  .cus-b-bottom .col-md-3{
+    width: 30%;
+  }
+  .cus-b-bottom .col-md-9{
+    width: 70%;
+  }
+  .cus-b-main {
+    margin: 0 auto;
+    width: 350px;
+  }
+  .cus-b-top {
+    width: 350px;
+    margin: 0 auto;
+  }
+  /* contact-area */
+
+  .contact-bottom form{
+    margin: 0px 20px;
+  }
+  .inp-mgs textarea{
+    width: 100%;
+  }
+  .con-button {
+    margin-top: 20px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+
+  p{
+    width: auto !important;
+  }
+  h1{
+    width: auto !important;
+    font-size: 24px !important;
+  }
+  h2{
+    width: auto !important;
+  }
+  .mobile-button i{
+    color: #fff;
+  }
+  .banner {
+    height: auto;
+    padding: 32px 0px;
+  }
+  .banner-left {
+    height: auto;
+    text-align: center;
+  }
+  .banner-left h2{
+    width: auto;
+  }
+  .banner-left h5{
+    margin: 25px auto;
+  }
+  .banner-left p{
+    width: auto;
+  }
+  .banner-right {
+    height: auto;
+  }
+  .card {
+  width: auto;
+  margin-left: 16px;
+  margin-top: 30px;
+  }
+
+   /* banner */
+
+  .social-area {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 40px 0px;
+  text-align: center;
+  }
+  .social-top p{
+    width: auto;
+   }
+  .social-bottom ul{
+  padding: 0;
+  margin: 0;
+  }
+  .social-bottom img {
+  width: 35px;
+  }
+  .social-bottom ul li {
+  display: inline;
+  list-style: none;
+  padding: 0px 7px;
+  }
+  .features-tab {
+  margin-bottom: 42px;
+  }
+  .features-tab  li{
+    display: inline-block;
+  }
+  .features-area .col-md-2{
+    text-align: center;
+  }
+  .features-area .col-md-6{
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .features-text h2{
+    width: auto;
+  }
+  .features-text p{
+    width: auto;
+  }
+  .features-image {
+  margin-top: 42px;
+  text-align: center;
+  }
+  .tab {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 5px;
+  }
+
+  /* slider-area */
+
+  .slider-area .der{
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  .slider-text h5{
+    margin: 20px auto;
+  }
+  .slider-left-con{
+    margin: 20px auto;
+  }
+  .slider-img{
+    padding: 13px;
+  }
+
+  /* slider-2-area */
+
+  .slider-2-area{
+    text-align: center;
+  }
+  .slider-2-text{
+    padding: 0px 10px; 
+    margin-bottom: 20px;
+  }
+  .slider-2-text h5 {
+    margin: 30px auto;
+  }
+
+  /* content-area */
+
+  .list{
+    margin-top: 20px;
+  }
+
+  /* price-area */
+
+  .pri-sec {
+  padding: 20px;
+  }
+
+  /* customer-area */
+
+  .cus-b-main{
+    margin-bottom: 30px;
+  }
+  .cus-b-bottom .col-md-3{
+    width: 30%;
+  }
+  .cus-b-bottom .col-md-9{
+    width: 70%;
+  }
+  .cus-b-main {
+    margin: 0 auto;
+    width: 350px;
+  }
+  .cus-b-top {
+    width: 350px;
+    margin: 0 auto;
+  }
+  /* contact-area */
+
+  .contact-bottom form{
+    margin: 0px 20px;
+  }
+  .inp-mgs textarea{
+    width: 100%;
+  }
+  .con-button {
+    margin-top: 20px;
+  }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+  p{
+    width: auto !important;
+  }
+  h1{
+    width: auto !important;
+    font-size: 24px !important;
+  }
+  h2{
+    width: auto !important;
+  }
+  .mobile-button i{
+    color: #fff;
+  }
+  .banner {
+    height: auto;
+    padding: 32px 0px;
+  }
+  .banner-left {
+    height: auto;
+    text-align: center;
+  }
+  .banner-left h2{
+    width: auto;
+  }
+  .banner-left h5{
+    margin: 25px auto;
+  }
+  .banner-left p{
+    width: auto;
+  }
+  .banner-right {
+    height: auto;
+  }
+  .card {
+  width: auto;
+  margin-left: 16px;
+  margin-top: 30px;
+  }
+
+   /* banner */
+
+  .social-area {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 40px 0px;
+  text-align: center;
+  }
+  .social-top p{
+    width: auto;
+   }
+  .social-bottom ul{
+  padding: 0;
+  margin: 0;
+  }
+  .social-bottom img {
+  width: 25px;
+  }
+  .social-bottom ul li {
+  display: inline;
+  list-style: none;
+  padding: 0px 5px;
+  }
+  .features-tab {
+  margin-bottom: 42px;
+  }
+  .features-tab  li{
+    display: inline-block;
+  }
+  .features-area .col-md-2{
+    text-align: center;
+  }
+  .features-area .col-md-6{
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .features-text h2{
+    width: auto;
+  }
+  .features-text p{
+    width: auto;
+  }
+  .features-image {
+  margin-top: 42px;
+  text-align: center;
+  }
+  .tab {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 5px;
+  }
+  /* slider-area */
+
+  .slider-area .der{
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  .slider-text h5{
+    margin: 20px auto;
+  }
+  .slider-left-con{
+    margin: 20px auto;
+  }
+  .slider-img{
+    padding: 13px;
+  }
+
+  /* slider-2-area */
+
+  .slider-2-area{
+    text-align: center;
+  }
+  .slider-2-text{
+    padding: 0px 10px; 
+    margin-bottom: 20px;
+  }
+  .slider-2-text h5 {
+    margin: 30px auto;
+  }
+
+  /* content-area */
+
+  .list{
+    margin-top: 20px;
+  }
+
+  /* price-area */
+
+  .pri-sec {
+  padding: 20px;
+  }
+
+  /* customer-area */
+
+
+  .cus-b-main{
+    margin-bottom: 30px;
+  }
+  .cus-b-bottom .col-md-3{
+    width: 30%;
+  }
+  .cus-b-bottom .col-md-9{
+    width: 70%;
+  }
+  .cus-b-main {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .cus-b-top {
+    width: 300px;
+    margin: 0 auto;
+  }
+  /* contact-area */
+
+  .contact-bottom form{
+    margin: 0px 20px;
+  }
+  .inp-mgs textarea{
+    width: 100%;
+  }
+  .con-button {
+    margin-top: 20px;
+  }
+}

@@ -201,7 +201,7 @@ header {
 	border-bottom: 1px solid #fff;
 	text-align: center;
 	line-height: 110px;
-	transition: 0.3s;
+	transition: 0.5s;
 }
 .tab:hover{
 	cursor: pointer;
@@ -464,6 +464,7 @@ header {
 .pri-body {
 	background: #333333;
 	border-bottom: 3px solid #ff8b37;
+	padding: 20px;
 }
 .pri-body h1 {
 	font-size: 25px;
@@ -488,6 +489,7 @@ header {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	font-weight: bold;
+	padding: 10px;
 }
 .pri-body-1 span {
 	font-size: 70px;
@@ -497,6 +499,7 @@ header {
 .pri-body-1 p {
 	color: #b5a9a9;
 	font-style: italic;
+	padding-bottom: 15px;
 }
 .ext p {
 	margin: 0;
@@ -557,15 +560,17 @@ header {
 .customer-bottom {
 	margin-top: 40px;
 }
-.saparet {
-	padding-left: 100px;
+.cus-b-main {
+	margin: 0 auto;
+	width: 350px;
 }
 .cus-b-top {
 	position: relative;
 	background: #f5f5f5;
 	border-radius: 5px;
 	padding: 30px 15px;
-	width: 278px;
+	width: 350px;
+	margin: 0 auto;
 }
 .cus-b-top p {
 	margin: 0px;
@@ -712,9 +717,9 @@ header {
 	margin-top: 25px;
 }
 .inp-form input {
-	width: 610px;
-	margin-bottom: 30px;
-	padding: 5px 0px 5px 10px;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 8px 0px;
 	border: none;
 	border-bottom: 1px solid #ccc;
 }
